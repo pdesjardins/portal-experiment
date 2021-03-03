@@ -1,5 +1,5 @@
 type: redoc
-definitionId: orders
+definitionId: petstore
 showInfo: true
 expand: true
 settings:
