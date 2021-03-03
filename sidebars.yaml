@@ -1,18 +1,10 @@
-orders:
-  - page: openapi/reference.page.orders.yaml/*
-
 training:
   - page: developer-portal/index.md
   - page: openapi/reference.page.orders.yaml/*
-  - group: Petstore reference
-    expanded: false
-    pages:
-      - page: openapi/reference.page.yaml/*
-      - page: openapi/reference.page.orders.yaml/*
   - group: Orders reference
     expanded: false
     pages:
-      - page: openapi/reference.page.orders.yaml/*
+      - page: openapi/reference.page.yaml/*
 
   - group: Admin
     expanded: true
