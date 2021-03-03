@@ -1,3 +1,6 @@
+orders:
+  - page: openapi/reference.page.orders.yaml/*
+
 training:
   - page: developer-portal/index.md
   - page: openapi/reference.page.orders.yaml/*
