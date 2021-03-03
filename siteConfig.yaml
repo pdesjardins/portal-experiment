@@ -5,8 +5,9 @@ meta:
 headerIcon: https://doc.toasttab.com/Ie5QH/assets/images/toast-restaurant-pos.png
 enableToc: true
 oasDefinitions:
-  petstore: ./openapi/petstore.yaml
+  # petstore: ./openapi/petstore.yaml
   orders: https://doc.toasttab.com/api-specifications/toast-orders-api.yaml
+  menus: https://doc.toasttab.com/api-specifications/toast-menus-api.yaml
   # add links to definitions in our API registry by using a fully qualified URL.
 stylesheets:
   - https://fonts.googleapis.com/css?family=Roboto:300,400,600,700
