@@ -1,10 +1,9 @@
 training:
   - page: developer-portal/index.md
-  - page: openapi/reference.page.orders.yaml/*
   - group: Orders reference
     expanded: false
     pages:
-      - page: openapi/reference.page.yaml/*
+      - page: openapi/orders.reference.page.yaml/*
 
   - group: Admin
     expanded: true
