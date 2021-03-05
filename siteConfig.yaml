@@ -14,6 +14,7 @@ oasDefinitions:
   orders: https://doc.toasttab.com/api-specifications/toast-orders-api.yaml
   partners: https://doc.toasttab.com/api-specifications/toast-partners-api.yaml
   restaurants: https://doc.toasttab.com/api-specifications/toast-restaurants-api.yaml
+  stock: https://doc.toasttab.com/api-specifications/toast-stock-api.yaml
   giftCards: https://doc.toasttab.com/api-specifications/toast-integrations-giftcard-api.yaml
   loyalty: https://doc.toasttab.com/api-specifications/toast-integrations-loyalty-api.yaml
   # add links to definitions in our API registry by using a fully qualified URL.
