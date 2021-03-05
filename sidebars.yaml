@@ -38,12 +38,13 @@ training:
       - page: openapi/stock.reference.page.yaml/*
   - group: Integration server specifications
     expanded: false
-    - group: Gift cards integration specification
-      expanded: false
-      pages:
-        - page: openapi/giftcards.reference.page.yaml/*
-    - group: Loyalty integration specification
-      expanded: false
-      pages:
-        - page: openapi/loyalty.reference.page.yaml/*
+    pages:
+      - group: Gift cards integration specification
+        expanded: false
+        pages:
+          - page: openapi/giftcards.reference.page.yaml/*
+      - group: Loyalty integration specification
+        expanded: false
+        pages:
+          - page: openapi/loyalty.reference.page.yaml/*
 
