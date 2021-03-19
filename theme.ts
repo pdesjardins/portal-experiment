@@ -16,9 +16,9 @@ export const theme = {
     // tonalOffset: 0.2,
     primary: {
       main: '#ff4c00',
-      // light: ({ colors }) => lighten(colors.tonalOffset, colors.primary.main),
-      // dark: ({ colors }) => darken(colors.tonalOffset, colors.primary.main),
-      // contrastText: ({ colors }) => readableColor(colors.primary.main),
+      light: ({ colors }) => lighten(colors.tonalOffset, colors.primary.main),
+      dark: ({ colors }) => darken(colors.tonalOffset, colors.primary.main),
+      contrastText: ({ colors }) => readableColor(colors.primary.main),
     },
     // success: {
     //   main: '#00aa13',
