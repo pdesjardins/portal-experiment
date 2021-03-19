@@ -6,7 +6,10 @@ import { Flex, Link } from '@redocly/ui';
 export default function Footer(props) {
     const { columns, copyrightText } = props.footer;
 
-    return ()
+    return (
+        <FooterWrapper>
+        </FooterWrapper>
+    )
 }
 
 const FooterWrapper = styled.div`
