@@ -30,8 +30,8 @@ stylesheets:
 #  - ./static/intercom.js
 nav:
 
-  - label: Training exercises
-    page: developer-portal/index.md
+  - label: Developer's Guide
+    href: https://doc.toasttab.com/Ie5QH/index.html
 
   - label: External docs
     icon: ./images/redocly-icon-white.png
