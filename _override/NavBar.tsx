@@ -22,9 +22,9 @@ export default function NavBar(props) {
     });
 
   return (
-    <NavWrapper hasBackground={isMain}>
+    <NavWrapper>
       <Flex p="20px">
-        <img src={logo} alt="Find me." height="50" />
+        <img src={logo} alt="Toast logo" height="50" />
         <NavItems>
           {navItems}
           <SearchBox pathPrefix={props.pathPrefix} />
