@@ -30,17 +30,22 @@ stylesheets:
 #  - ./static/intercom.js
 nav:
 
+  - label: Cookbook
+    href: https://doc.toasttab.com/Ie5QH/index.html
+
   - label: Developer's Guide
     href: https://doc.toasttab.com/Ie5QH/index.html
 
-  - label: External docs
-    icon: ./images/redocly-icon-white.png
-    href: https://docs.redoc.ly/developer-portal/introduction/
+  - label: Reference
+    href: https://doc.toasttab.com/Ie5QH/index.html
+    
+  - label: Platform guide
+    href: https://doc.toasttab.com/Ie5QH/index.html
 
   - search: true
 
 footer:
-  copyrightText: Copyright © Redocly 2019-2020. All right reserved.
+  copyrightText: Copyright © Toast 2016-2021. All right reserved.
   columns:
     - group: Legal
       items:
