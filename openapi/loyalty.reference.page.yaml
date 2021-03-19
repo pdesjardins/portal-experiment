@@ -2,6 +2,7 @@ type: reference-docs
 definitionId: loyalty
 settings:
   pagination: item
+  showConsole: false
   generateCodeSamples:
     languages:
       - lang: curl
