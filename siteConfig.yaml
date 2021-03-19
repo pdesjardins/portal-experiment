@@ -6,7 +6,7 @@ meta:
 headerIcon: https://doc.toasttab.com/Ie5QH/assets/images/toast-restaurant-pos.png
 enableToc: true
 oasDefinitions:
-  # petstore: ./openapi/petstore.yaml
+  petstore: ./openapi/petstore.yaml
   cashManagement: https://doc.toasttab.com/api-specifications/toast-cashmgmt-api.yaml
   creditCards: https://doc.toasttab.com/api-specifications/toast-ccpartner-api.yaml
   configuration: https://doc.toasttab.com/api-specifications/toast-config-api.yaml
