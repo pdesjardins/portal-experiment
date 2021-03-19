@@ -61,7 +61,7 @@ const NavItems = styled.ul`
     list-style: none;
     margin-right: 20px;
     & a {
-      color: #ffffff;
+      color: #000000;
       text-decoration: none;
     }
   }
