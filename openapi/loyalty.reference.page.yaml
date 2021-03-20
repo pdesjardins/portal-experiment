@@ -3,6 +3,7 @@ definitionId: loyalty
 settings:
   pagination: item
   showConsole: false
+  scrollYOffset: 90
   generateCodeSamples:
     languages:
       - lang: curl
