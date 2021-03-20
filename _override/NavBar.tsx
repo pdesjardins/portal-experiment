@@ -22,7 +22,7 @@ export default function NavBar(props) {
     });
 
   return (
-    <NavWrapper id="findMeId">
+    <NavWrapper id="navHeader">
       <Flex p="20px">
         <img src={logo} alt="Toast logo" height="50" />
         <NavItems>

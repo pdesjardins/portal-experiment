@@ -3,7 +3,7 @@ definitionId: loyalty
 settings:
   pagination: item
   showConsole: false
-  scrollYOffset: 90
+  scrollYOffset: navHeader
   generateCodeSamples:
     languages:
       - lang: curl
