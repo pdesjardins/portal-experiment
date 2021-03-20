@@ -45,19 +45,3 @@ nav:
   - search: true
 
 footer:
-  copyrightText: Copyright © Toast 2016-2021. All right reserved.
-  columns:
-    - group: Legal
-      items:
-        - label: Terms of Use
-          href: 'https://redoc.ly/subscription-agreement/'
-        - label: Privacy Notice
-          href: 'https://redoc.ly/privacy-policy/'
-        - label: Cookie Notice
-          href: 'https://redoc.ly/privacy-policy/'
-    - group: Support
-      items:
-        - label: FAQ
-          page: faq.md
-        - label: Contact us
-          page: contact.mdx
