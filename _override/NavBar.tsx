@@ -47,6 +47,7 @@ const NavItem = styled.li`
 `;
 
 const NavWrapper = styled.div<{ hasBackground: boolean }>`
+  id: 'findMe'
   display: flex;
   background: ${({ hasBackground }) => (hasBackground ? '#227a88' : 'transparent')};
 `;
