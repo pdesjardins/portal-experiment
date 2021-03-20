@@ -45,3 +45,5 @@ nav:
   - search: true
 
 footer:
+
+scrollYOffset: 10
