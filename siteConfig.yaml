@@ -35,6 +35,10 @@ nav:
   - label: External docs
     icon: ./images/redocly-icon-white.png
     href: https://docs.redoc.ly/developer-portal/introduction/
+    
+  - label: Toast Developer Guide
+    icon: ./images/toast-logo.png
+    href: https://dev.toasttab.com/Ie5QH/index.html
 
   - search: true
 
