@@ -43,7 +43,7 @@ nav:
   - search: true
 
 footer:
-  copyrightText: Copyright © Redocly 2019-2020. All right reserved.
+  copyrightText: Copyright © Redocly LLC 2019-2020. All rights reserved.
   columns:
     - group: Legal
       items:
