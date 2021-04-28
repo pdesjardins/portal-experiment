@@ -1,6 +1,6 @@
 type: redoc
 definitionId: cashManagement
-showInfo: false
+showInfo: true
 expand: true
 settings:
   generateCodeSamples:
