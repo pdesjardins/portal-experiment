@@ -159,12 +159,12 @@ export const theme = {
     },
   },
   rightPanel: {
-    backgroundColor: '#263238',
+    backgroundColor: '#474747',
     width: '40%',
     // textColor: '#ffffff',
   },
   schema: {
-    nestedBackground: '#f7f7f7',
+    nestedBackground: '#ff3300',
     // linesColor: theme => lighten( theme.colors.tonalOffset, desaturate(theme.colors.tonalOffset, theme.colors.primary.main) ),
     // defaultDetailsWidth: '75%',
     // typeNameColor: theme => theme.colors.text.secondary,
