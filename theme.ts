@@ -50,7 +50,7 @@ export const theme = {
       // secondary: '#4e566d',
     },
     border: {
-      dark: 'rgba(0,0,0, 0.15)',
+      dark: 'rgba(0,0,0,0.08)',
       light: '#ffffff',
     },
     // responses: {
