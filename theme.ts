@@ -13,7 +13,7 @@ export const theme = {
   //   large: '1200px',
   // },
   colors: {
-    // tonalOffset: 0.2,
+    tonalOffset: 0,
     primary: {
       main: '#252525',
       sidebar: '#ffffff',
@@ -84,7 +84,7 @@ export const theme = {
     },
     navbar: {
       main: ({ colors }) => colors.primary.sidebar,
-    //   gradient: ({ colors }) => darken(colors.tonalOffset / 2, colors.navbar.main),
+      gradient: ({ colors }) => darken(colors.tonalOffset, colors.navbar.main),
     //   contrastText: '#252525'
     },
     // footer: {
