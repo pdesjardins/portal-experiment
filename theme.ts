@@ -13,12 +13,14 @@ export const theme = {
   //   large: '1200px',
   // },
   colors: {
-    // tonalOffset: 0.2,
+    tonalOffset: 0.2,
     primary: {
-      main: '#252525',
-      // light: ({ colors }) => lighten(colors.tonalOffset, colors.primary.main),
-      // dark: ({ colors }) => darken(colors.tonalOffset, colors.primary.main),
-      // contrastText: ({ colors }) => readableColor(colors.primary.main),
+      main: '#ffffff',
+      lightText: '#f7f7f7',
+      darkText: '#252525',
+      light: ({ colors }) => lighten(colors.tonalOffset, colors.primary.lightText),
+      dark: ({ colors }) => darken(colors.tonalOffset, colors.primary.darkText),
+      contrastText: ({ colors }) => readableColor(colors.primary.darkText),
     },
     // success: {
     //   main: '#00aa13',
@@ -164,7 +166,7 @@ export const theme = {
     // textColor: '#ffffff',
   },
   schema: {
-    nestedBackground: '#ff3300',
+    nestedBackground: '#f7f7f7',
     // linesColor: theme => lighten( theme.colors.tonalOffset, desaturate(theme.colors.tonalOffset, theme.colors.primary.main) ),
     // defaultDetailsWidth: '75%',
     // typeNameColor: theme => theme.colors.text.secondary,
