@@ -13,14 +13,14 @@ export const theme = {
   //   large: '1200px',
   // },
   colors: {
-    tonalOffset: 0.2,
+    // tonalOffset: 0.2,
     primary: {
       main: '#ffffff',
-      lightText: '#f7f7f7',
+    //   lightText: '#f7f7f7',
       darkText: '#252525',
-      light: ({ colors }) => lighten(colors.tonalOffset, colors.primary.lightText),
-      dark: ({ colors }) => darken(colors.tonalOffset, colors.primary.darkText),
-      contrastText: ({ colors }) => readableColor(colors.primary.darkText),
+    //   light: ({ colors }) => lighten(colors.tonalOffset, colors.primary.lightText),
+    //   dark: ({ colors }) => darken(colors.tonalOffset, colors.primary.darkText),
+    //   contrastText: ({ colors }) => readableColor(colors.primary.darkText),
     },
     // success: {
     //   main: '#00aa13',
@@ -83,11 +83,11 @@ export const theme = {
       link: '#31bbb6',
       head: '#c167e4',
     },
-    // navbar: {
-    //   main: ({ colors }) => colors.primary.main,
+    navbar: {
+      main: ({ colors }) => colors.primary.main,
     //   gradient: ({ colors }) => darken(colors.tonalOffset / 2, colors.navbar.main),
-    //   contrastText: 'white'
-    // },
+      contrastText: '#252525'
+    },
     // footer: {
       // main: ({ colors }) => colors.primary.main,
       // contrastText: 'white'
