@@ -15,7 +15,7 @@ export const theme = {
   colors: {
     // tonalOffset: 0.2,
     primary: {
-      main: '#ffffff',
+      main: '#252525',
       // light: ({ colors }) => lighten(colors.tonalOffset, colors.primary.main),
       // dark: ({ colors }) => darken(colors.tonalOffset, colors.primary.main),
       // contrastText: ({ colors }) => readableColor(colors.primary.main),
@@ -48,10 +48,10 @@ export const theme = {
       primary: '#424242',
       // secondary: '#4e566d',
     },
-    // border: {
-    //   dark: 'rgba(0,0,0, 0.15)',
-    //   light: '#ffffff',
-    // },
+    border: {
+      dark: 'rgba(0,0,0, 0.15)',
+      light: '#ffffff',
+    },
     // responses: {
     //   success: {
     //     color: ({ colors }) => colors.success.main,
