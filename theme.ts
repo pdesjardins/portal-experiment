@@ -13,12 +13,13 @@ export const theme = {
   //   large: '1200px',
   // },
   colors: {
-    // tonalOffset: 0.2,
+    tonalOffset: 0,
     primary: {
-      main: '#227a88',
-      // light: ({ colors }) => lighten(colors.tonalOffset, colors.primary.main),
-      // dark: ({ colors }) => darken(colors.tonalOffset, colors.primary.main),
-      // contrastText: ({ colors }) => readableColor(colors.primary.main),
+      main: '#252525',
+      sidebar: '#ffffff',
+    //   light: ({ colors }) => lighten(colors.tonalOffset, colors.primary.main),
+    //   dark: ({ colors }) => darken(colors.tonalOffset, colors.primary.main),
+    //   contrastText: ({ colors }) => readableColor(colors.primary.main),
     },
     // success: {
     //   main: '#00aa13',
@@ -48,10 +49,10 @@ export const theme = {
       primary: '#424242',
       // secondary: '#4e566d',
     },
-    // border: {
-    //   dark: 'rgba(0,0,0, 0.15)',
-    //   light: '#ffffff',
-    // },
+    border: {
+      dark: 'rgba(0,0,0,0.08)',
+      light: '#ffffff',
+    },
     // responses: {
     //   success: {
     //     color: ({ colors }) => colors.success.main,
@@ -81,11 +82,11 @@ export const theme = {
       link: '#31bbb6',
       head: '#c167e4',
     },
-    // navbar: {
-    //   main: ({ colors }) => colors.primary.main,
-    //   gradient: ({ colors }) => darken(colors.tonalOffset / 2, colors.navbar.main),
-    //   contrastText: 'white'
-    // },
+    navbar: {
+      main: ({ colors }) => colors.primary.sidebar,
+      gradient: ({ colors }) => darken(colors.tonalOffset, colors.navbar.main),
+    //   contrastText: '#252525'
+    },
     // footer: {
       // main: ({ colors }) => colors.primary.main,
       // contrastText: 'white'
@@ -93,7 +94,7 @@ export const theme = {
   },
 
   sidebar: {
-    backgroundColor: '#fafafa',
+    backgroundColor: '#ffffff',
     width: '260px',
   },
   // tocPanel: {
@@ -159,12 +160,12 @@ export const theme = {
     },
   },
   rightPanel: {
-    backgroundColor: '#263238',
+    backgroundColor: '#474747',
     width: '40%',
     // textColor: '#ffffff',
   },
   schema: {
-    nestedBackground: '#fafafa',
+    nestedBackground: '#f7f7f7',
     // linesColor: theme => lighten( theme.colors.tonalOffset, desaturate(theme.colors.tonalOffset, theme.colors.primary.main) ),
     // defaultDetailsWidth: '75%',
     // typeNameColor: theme => theme.colors.text.secondary,
